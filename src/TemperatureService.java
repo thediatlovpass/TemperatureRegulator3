@@ -7,7 +7,7 @@ public class TemperatureService {
         while (temperature.getActualTemperatureInDoubleFormat() != temperature.getExpectedTemperature()) {
             if (temperature.getActualTemperatureInDoubleFormat() < temperature.getExpectedTemperature()) {
                 System.out.println("Zwiększam temperature o: " + changeTemp + " stopni/a");
-                temperature.setActualTemperatureInDoubleFormat(temperature.getActualTemperatureInDoubleFormat());
+                temperature.setActualTemperatureInDoubleFormat(temperature.getActualTemperatureInDoubleFormat() + changeTemp);
             } else {
                 System.out.println("Zmniejszam temperature o: " + changeTemp + " stopni/a");
             }
