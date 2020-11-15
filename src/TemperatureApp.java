@@ -7,7 +7,7 @@ public class TemperatureApp {
         Temperature temperature = new Temperature();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj temperaturę aktualną: ");
-        temperature.setActualTemperature(scanner.nextInt());
+        temperature.setActualTemperatureInDoubleFormat(scanner.nextInt());
         scanner.nextLine();
         System.out.println("Podaj temperaturę oczekiwaną: ");
         temperature.setExpectedTemperature(scanner.nextInt());

@@ -1,7 +1,7 @@
 public class Temperature {
     private int actualTemperature;
     private int expectedTemperature;
-    private double actualTemperatureInDoubleFormat = actualTemperature;
+    private double actualTemperatureInDoubleFormat;
 
     public Temperature() {
     }
